@@ -12,13 +12,13 @@ johannesburgTimeElement.innerHTML = johannesburgTime.format("h:mm:ss [<small>]A[
 
 
 
-let parisElement = document.querySelector("#paris")
-let parisDateElement = parisElement.querySelector(".date");
-let parisTimeElement = parisElement.querySelector(".time");
-let parisTime = moment().tz("Europe/Paris");
+let tokyoElement = document.querySelector("#tokyio")
+let tokyoDateElement = tokyoElement.querySelector(".date");
+let tokyoTimeElement = tokyoElement.querySelector(".time");
+let tokyoTime = moment().tz("Asia/Tokyo");
 
-parisDateElement.innerHTML = parisTime.format("MMMM Do YYYY");
-parisTimeElement.innerHTML = parisTime.format("h:mm:ss [<small>]A[</small>]");
+tokyoDateElement.innerHTML = tokyoTime.format("MMMM Do YYYY");
+tokyoTimeElement.innerHTML = tokyoTime.format("h:mm:ss [<small>]A[</small>]");
 
 }
 function updateCity(event) {
