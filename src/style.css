@@ -1,5 +1,5 @@
 body {
-    background-color: #0ea5e9;
+    background-color: #e0f2fe;
     font-family: 'Segoe UI', system-ui, sans-serif;
 }
 
@@ -8,7 +8,7 @@ h1 {
     font-family: 'Segoe UI', system-ui, sans-serif;
     font-size: 36px;
     font-weight: 800;
-    color: #ffffff;
+    color: #0369a1;
     letter-spacing: -0.5px;
 }
 
@@ -16,7 +16,7 @@ h2 {
     margin: 0 0 5px;
     font-size: 28px;
     font-weight: 700;
-    color: #0c4a6e;
+    color: #0284c7;
 }
 
 select {
@@ -25,9 +25,9 @@ select {
     font-size: 18px;
     border-radius: 8px;
     padding: 10px 36px 10px 12px;
-    border: 2px solid #38bdf8;
+    border: 2px solid #7dd3fc;
     background-color: #ffffff;
-    color: #0c4a6e;
+    color: #0369a1;
     font-weight: 500;
     appearance: none;
     cursor: pointer;
@@ -35,18 +35,17 @@ select {
 }
 
 select:focus {
-    border-color: #0ea5e9;
-    box-shadow: 0 0 0 3px rgba(14, 165, 233, 0.25);
+    border-color: #38bdf8;
+    box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.25);
 }
 
 .container {
     max-width: 600px;
     margin: 60px auto;
-    background: #f0f9ff;
+    background: #ffffff;
     padding: 60px;
-    box-shadow: 10px 10px 0px #0284c7;
     border-radius: 16px;
-    border: 2px solid #38bdf8;
+    border: 2px solid #bae6fd;
 }
 
 .city {
@@ -63,7 +62,7 @@ select:focus {
 }
 
 .date {
-    color: #0284c7;
+    color: #38bdf8;
     font-size: 14px;
     font-weight: 500;
 }
@@ -71,7 +70,7 @@ select:focus {
 .time {
     font-size: 48px;
     font-weight: 800;
-    color: #0369a1;
+    color: #0284c7;
     letter-spacing: -1px;
 }
 
@@ -79,13 +78,23 @@ select:focus {
     font-size: 20px;
     vertical-align: middle;
     line-height: 48px;
-    color: #38bdf8;
+    color: #7dd3fc;
     font-weight: 700;
 }
 
 footer {
     text-align: center;
     font-size: 18px;
-    color: rgba(33, 72, 231, 0.44);
+    color: rgba(3, 105, 161, 0.5);
     font-weight: 500;
+}
+
+.picture {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
 }
